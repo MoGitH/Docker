@@ -5,5 +5,3 @@ RUN apk add --no-cache php7
 COPY hello.php .
 
 CMD ["php","./hello.php"]
-
-#m
